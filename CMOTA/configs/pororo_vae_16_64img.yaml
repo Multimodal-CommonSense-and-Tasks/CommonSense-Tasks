@@ -1,0 +1,19 @@
+Model: evqvae
+finetune: False
+pretrained_path: '/datasets/mlvae.ckpt'
+ch_mult: [1,2,4]
+attn_resolutions: [16]
+img_size: 64
+resolution: 64
+loss_type: lpips_l2
+p_loss_weight: 0.1
+batch_size: 32
+backup: False
+log_images: True
+num_workers: 16
+#train_dir: '/dataset/dataset/vae_dataset/train_vae'
+#val_dir: '/dataset/dataset/vae_dataset/val_vae'
+dataset_size: [14026, 2601]
+image_log_steps: 100
+lr_decay: True
+gpus: 8

@@ -1,0 +1,1 @@
+python train_vae.py --config configs/pororo_vae_16_64img.yaml --gpus 1 --epochs 200 --train_dir dataset/vae_dataset/pororo/training_dataset --val_dir dataset/vae_dataset/pororo/validation_dataset

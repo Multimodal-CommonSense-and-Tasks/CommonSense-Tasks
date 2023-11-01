@@ -1,0 +1,14 @@
+pudb
+pytorch-lightning==1.4.6
+einops
+regex
+ftfy
+tokenizers
+transformers
+cython
+youtokentome
+WebDataset
+pillow
+wandb
+sklearn
+tensorboard

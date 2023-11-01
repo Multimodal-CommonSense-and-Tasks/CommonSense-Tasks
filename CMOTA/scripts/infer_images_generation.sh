@@ -1,0 +1,1 @@
+python infer_dalle.py --config configs/pororo_dalle_64img_cmota.yaml --gpus 1 --test --ckpt_path pretrained/cmota_trained_200.ckpt --infer_mode test --batch_size 32 --epochs 1 --infer_name generated_images

@@ -1,0 +1,1 @@
+python --config configs/pororo_dalle_64img_cmota.yaml --gpus 8 --epochs 200 --batch_size 12
